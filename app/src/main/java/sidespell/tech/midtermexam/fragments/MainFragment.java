@@ -6,12 +6,19 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.inputmethod.EditorInfo;
+import android.widget.TextView;
 
 import sidespell.tech.midtermexam.R;
 
 public class MainFragment extends Fragment {
 
-    public static MainFragment newInstance() {
+
+
+
+
+    public static MainFragment newInstance()
+    {
         return new MainFragment();
     }
 
